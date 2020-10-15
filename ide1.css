@@ -29,6 +29,7 @@ header{
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+	position: fixed;
 }
 
 .sublimeIMG{
@@ -87,19 +88,11 @@ main{
 
 
 
-.s1:hover{
-	-moz-transform: scale(1.06);
-    -webkit-transform: scale(1.06);
-    transform: scale(1.06);
-}
+
 .s1{
-	transition: 1s;
 	height: 50%;
 	width: 90%;
 	padding-left: 6%;
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
     margin-top: 8%;
 }
 
@@ -112,7 +105,8 @@ main{
 	justify-content: space-around;
 	padding-top: 5vh; 
 	color: orange;
-	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 .article1{

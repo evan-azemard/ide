@@ -25,9 +25,13 @@ header{
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	position: fixed;
 }
 
+h1{
+	border: solid; 
+	border-color: #BD8DF1;
+	border-radius: 10%;
+}
 .studio{
 	height: 15vh;
 	width: auto;
@@ -46,9 +50,32 @@ header{
 }
 
 
+.photo{
+	display: flex;
+	justify-content: space-around;
+	height: 45vh;
+	width: 98vw;
+	margin-left: -5%;
+}
 
+.photo img{
+	height: 95%;
+	width: 27%;
+	border-radius: 10%;
+}
 
+.photo img:hover{
+	-moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+ }
 
+ .photo img{
+ 	transition: 0.6s;
+	-moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+ }
 
 main{
 	background-attachment: fixed;
@@ -62,13 +89,6 @@ main{
 	flex-direction: column;
 }
 
-.s2{
-	height: 50%;
-	width: 50%;
-	margin-left: 27%;
-	margin-top: 15%;
-
-}
 
 
 
@@ -83,12 +103,27 @@ main{
 	font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
+.section1 article:hover{
+	-moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+ }
+
+ .section1 article{
+ 	transition: 0.6s;
+	-moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    font-size: 2.5vh;
+ }
+
 .article1{
 	background-color:rgba(189, 141, 241, 0.5);
 	height: 44vh;
 	width: 22.5vw;
 	margin-bottom: 8%;
 	margin-top: -1%;
+	border-radius: 10%;
 }
 
 .article2{
@@ -97,6 +132,7 @@ main{
 	width: 22.5vw;
 	margin-bottom: 8%;
 	margin-top: -1%;
+	border-radius: 10%;
 }
 
 .article3{
@@ -105,24 +141,9 @@ main{
 	width: 22.5vw;
 	margin-bottom: 8%;
 	margin-top: -1%;
+	border-radius: 10%;
 }
 
-
-.article1 p:hover {
- font-size: 3vh;
- transition: 0.1s;
-}
-
-.article2 p:hover {
- font-size: 3vh;
- transition: 0.1s;
-
-}
-
-.article3 p:hover {
- font-size: 3vh;
- transition: 0.1s;
-}
 
 
 
@@ -141,9 +162,10 @@ main{
 }
 
 .lienn{
-	color: #A676D1;
 	text-decoration: none;
 	border: solid;
+	border-radius: 10%;
+	color: #BD8DF1;
 }
 
 .textb{
