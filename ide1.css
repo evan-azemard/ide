@@ -67,110 +67,92 @@ header{
      }
 
 
-
-
-
-
-
-
-main{
-	background-attachment: fixed;
-	height: 90vh;
-	margin-top: 5%;
-	margin-bottom: 2%;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-bottom: 10%;
-	display: flex;
-	flex-direction: column;
-}
-
-
-
-
-
 .s1{
-	height: 50%;
-	width: 90%;
-	padding-left: 6%;
-    margin-top: 8%;
+	height: 63%;
+	width: 85%;
 }
 
+.photos{
+	margin-top: 15%;
+	height: 60vh;
+	width: 80vw;
+	margin-left: 10%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
 
+.photos img{
+	height: 100%;
+}
 
 .section1{
 	margin-top: 10%;
-	height: 20vh;
+	height: 40vh;
 	display: flex;
-	justify-content: space-around;
-	padding-top: 5vh; 
+	justify-content: space-around; 
 	color: orange;
 	font-family: 'Raleway', sans-serif;
+	font-size: 135%;
 
 }
 
 .article1{
 	background-color: rgba(24, 25, 20, 0.6);
-	height: 44vh;
+	height: 100%;
 	width: 22.5vw;
+
 }
 
 .article2{
 	background-color: rgba(24, 25, 20, 0.6);
-	height: 44vh;
+	height: 100%;
 	width: 22.5vw;
 }
 
 .article3{
 	background-color: rgba(24, 25, 20, 0.6);
-	height: 44vh;
+	height: 100%;
 	width: 22.5vw;
 }
 
-
-.article1 p:hover {
- font-size: 3vh;
- transition: 0.1s;
-}
-
-.article2 p:hover {
- font-size: 3vh;
- transition: 0.1s;
-
-}
-
-.article3 p:hover {
- font-size: 3vh;
- transition: 0.1s;
-}
 
 
 
 
 .liend{
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
 	height: 8vh;
-	width: 15vw;
-	margin-top: 35vh;
-	margin-left: 38vw;
+	width: 100%;
 }
 
-
-.lien{
+.liend a{
+	height: 100%;
+	width: 15%;
 	font-size: 5vh;
-	font-family: sans-serif, space-around;
-}
-
-.lienn{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 	color: gray;
 	text-decoration: none;
 	border: solid;
 }
+
+
+
+
+
 
 .textb{
 	text-align: center;
 	font-size: 3vh;
 	font-family: serif;
 	color: gray;
+	margin-top: 5%;
 	margin-bottom: : 2%;
 }
 
