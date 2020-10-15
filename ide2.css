@@ -59,6 +59,39 @@ main{
 	flex-direction: column;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    height: 22%;
+    background: #D1ED47; /* Si le background ne foncitionne pas*/
+	background: -webkit-linear-gradient(#D1ED47, rgba(120,192,255,0.2));
+	background: -moz-linear-gradient(#D1ED47, rgba(120,192,255,0.2));
+	background: -o-linear-gradient(#D1ED47, rgba(120,192,255,0.2));
+	background: linear-gradient(#D1ED47, rgba(120,192,255,0.2));
+    position: fixed;
+    overflow: auto;
+    margin-top: 15%;
+    margin-left: -5%;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 5px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
+}
 
 .prem{
 	margin-top: 15%;
